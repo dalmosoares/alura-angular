@@ -3,7 +3,6 @@ import { PhotoModule } from '../../photo/photo.module';
 import { PhotoFormModule } from '../../photo-form/photo-form.module';
 import { PhotoListModule } from '../photo-list.module';
 
-
 @NgModule({
     imports: [ 
         PhotoModule,
