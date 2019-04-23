@@ -1,3 +1,9 @@
 <p>
   objeto works!
 </p>
+<ul>
+  <li *ngFor="let f of recebeFamilia">
+    {{f.nome}} {{f.sobreNome}}
+  </li>
+</ul>
+<button (click)="feedback()">Emitir resposta</button>
